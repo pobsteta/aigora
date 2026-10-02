@@ -1,4 +1,4 @@
-# AIGORA, Édition Locale pour RStudio
+# AIGORA, Agents Intelligents en Gouvernance Ouverte et Raisonnement Autonome
 
 > Transforme Claude Code, lancé depuis RStudio, en assistant IA pour ton activité. 100 % local,
 > branché sur **kSuite (Infomaniak)** et sur des **logiciels open source**. Pas de serveur, pas de
