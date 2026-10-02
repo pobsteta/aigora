@@ -4,7 +4,7 @@
   "description": "AIGORA (Local Edition for RStudio): turn Claude Code into your AI business assistant with skills, agents, file-based memory and safety hooks. kSuite (Infomaniak) and open-source connectors. No server, no webapp.",
   "author": "AIGORA adaptation, based on AI OS by Thomas Berton (MIT)",
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/pobsteta/aigora",
   "skills": [
     "analyst",
     "build-app",
