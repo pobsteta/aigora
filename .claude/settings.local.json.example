@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(*)",
+      "Read(*)",
+      "Write(*)",
+      "Edit(*)",
+      "Glob(*)",
+      "Grep(*)",
+      "WebSearch(*)",
+      "WebFetch(*)",
+      "Agent(*)",
+      "Task(*)",
+      "mcp__ksuite-calendar__calendar_list_calendars",
+      "mcp__ksuite-calendar__calendar_list_events",
+      "mcp__ksuite-kdrive__kdrive_search",
+      "mcp__ksuite-kdrive__kdrive_list",
+      "mcp__ksuite-kchat__kchat_list_channels",
+      "mcp__ksuite-kchat__kchat_get_channel_history",
+      "mcp__ksuite-contact__contact_list",
+      "mcp__ksuite-contact__contact_search"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+# AIGORA (Local Edition) — Runtime Preferences
+# Read by Claude at skill execution time (not imported by scripts).
+
+# General
+timezone: "Europe/Paris"                 # Set during business-setup (e.g., "Europe/Paris", "America/New_York")
+date_format: "YYYY-MM-DD"
+language: "fr"                  # Set during business-setup (e.g., "en", "fr", "es", "de")
+
+# Model routing defaults
+default_model: "opus"           # For complex reasoning
+automation_model: "sonnet"      # For routine automation skills
+quick_model: "haiku"            # For simple formatting/classification
+
+# Content defaults
+content_platforms: []            # Set during business setup (e.g., linkedin, youtube, blog, newsletter)
+post_length: "medium"           # short (~300 chars), medium (~600 chars), long (~1200 chars)
+
+# Tools
+task_manager: "local"           # Options: local (SQLite task-manager), ksuite (Calendar tasks, synced to phone by kSync)
+calendar: "none"                # Options: ksuite, or none
+email: "none"                   # Options: ksuite, or none
+chat: "none"                    # Options: kchat, or none
+files: "none"                   # Options: kdrive (local synced folder, see aigora_kdrive()), or none
+slides: "quarto"                # Quarto (bundled with RStudio)
+crm: "none"                     # Options: odoo, or none (leads stay in data/leads.csv)
+search: "websearch"             # Options: websearch (built-in), searxng
+memory_llm: "ollama"            # Layer 3 only. Options: ollama (local), infomaniak
+
+# Communication
+confirm_before_sending: true    # Always confirm before external communications
+verbose_output: false           # Detailed vs concise output
+
+# Workflow
+scrum_mode: false               # AI acts as scrum manager — plan, track, automate
+
+# Identity
+assistant_name: "AIGORA"          # Optional: give your AI assistant a name

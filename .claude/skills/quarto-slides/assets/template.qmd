@@ -1,0 +1,53 @@
+---
+title: "Titre de la présentation"
+subtitle: "Sous-titre"
+author: "Votre nom"
+date: today
+lang: fr
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+    embed-resources: true
+  pptx: default
+---
+
+## Le constat
+
+- Point clé 1
+- Point clé 2
+- Pourquoi c'est important
+
+::: {.notes}
+Notes de l'orateur : ce qu'il faut dire sur cette diapositive.
+:::
+
+## Deux colonnes
+
+:::: {.columns}
+::: {.column width="50%"}
+**Avant**
+
+- Situation actuelle
+:::
+::: {.column width="50%"}
+**Après**
+
+- Situation cible
+:::
+::::
+
+## Un graphique R
+
+```{r}
+#| echo: false
+plot(cars, pch = 19, xlab = "Vitesse", ylab = "Distance")
+```
+
+## Prochaines étapes
+
+::: {.incremental}
+1. Première action
+2. Deuxième action
+3. Décision attendue
+:::

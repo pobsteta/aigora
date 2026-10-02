@@ -1,0 +1,73 @@
+{
+  "name": "aigora-local",
+  "version": "1.0.0-rstudio",
+  "description": "AIGORA (Local Edition for RStudio): turn Claude Code into your AI business assistant with skills, agents, file-based memory and safety hooks. kSuite (Infomaniak) and open-source connectors. No server, no webapp.",
+  "author": "AIGORA adaptation, based on AI OS by Thomas Berton (MIT)",
+  "license": "MIT",
+  "homepage": "",
+  "skills": [
+    "analyst",
+    "build-app",
+    "build-website",
+    "business-setup",
+    "content-pipeline",
+    "content-writer",
+    "email-assistant",
+    "email-digest",
+    "ksuite-setup",
+    "meeting-prep",
+    "memory",
+    "odoo",
+    "plugin-builder",
+    "qfieldcloud",
+    "qgis",
+    "quarto-slides",
+    "r-session",
+    "research",
+    "research-lead",
+    "scheduler",
+    "scrum-master",
+    "skill-creator",
+    "task-manager",
+    "weekly-review"
+  ],
+  "agents": [
+    "researcher",
+    "content-writer",
+    "code-reviewer"
+  ],
+  "hooks": {
+    "Stop": [
+      ".claude/hooks/memory_capture.py"
+    ],
+    "PreToolUse": [
+      ".claude/hooks/guardrail_check.py"
+    ],
+    "PostToolUse": [
+      ".claude/hooks/validate_output.py"
+    ]
+  },
+  "requires": {
+    "claude-code": ">=1.0.0",
+    "python": ">=3.9"
+  },
+  "keywords": [
+    "agents",
+    "aigora",
+    "crm",
+    "gis",
+    "hooks",
+    "infomaniak",
+    "ksuite",
+    "local",
+    "memory",
+    "odoo",
+    "open-source",
+    "qfield",
+    "qfieldcloud",
+    "qgis",
+    "r",
+    "rstudio",
+    "skills"
+  ]
+}
