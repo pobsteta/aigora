@@ -42,3 +42,8 @@ data/qfield/
 deliverables/
 *_files/
 
+
+# Adaptations locales privées (aigora-business, aigora-dev) : jamais publiées
+aigora-business/
+aigora-dev/
+aigora-*/
